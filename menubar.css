@@ -1,0 +1,168 @@
+  body {
+  background-color: White;
+  margin: 0;
+      margin-left: -40px;
+  font-family: Arial, Helvetica, sans-serif;
+      height: 100%;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: -17;
+   width: 100%;
+   background-color: black;
+   color: black;
+   text-align: center;
+}
+
+.skip-links {
+    margin-left: 40px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a{
+    position: absolute;
+    top: -3em;
+    background-color: black;
+    color: #fff;
+    padding: 0.5em 0.75em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.skip-links a:focus{
+    top:0;
+}
+
+ul.photobar {
+    margin-top: -17px;
+    overflow: hidden;
+}
+
+ul.photobar a:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* the text color is black when not active */
+  color: black;
+}
+
+/* Add a black background color to the top navigation */
+ul.menubar {
+    z-index: 0;
+  background: #000000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+ul.menubar a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding:14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+ul.menubar a:hover {
+  background-color: #ffffff; /* the text color is black when not active */
+  color: black;
+}
+
+/* Add a color to the active/current link */
+ul.menubar a.active {
+  background-color: #ffffff;
+  color: black;
+}
+
+#container {
+   position: relative;
+}
+
+#background {
+   position: absolute;
+   background-color: white;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   z-index: -1;
+   overflow: hidden;
+}
+
+ul.food {
+    
+    margin-top: -16px;
+    align-content:stretch;
+    width:auto;
+    object-fit: fill;
+    
+}
+
+ul.header h1{
+    background-repeat: repeat;
+    margin-top: 10px;
+    text-align: center;
+}
+
+ul.header h2{
+    margin-left: 20px;
+ 
+  font-size: 15px;
+}
+
+ul.header h3 {
+  text-align: center;
+  font-size: 15px;
+}
+
+ul.header li{
+      text-align: left;
+    margin-left: 20px;
+    margin-bottom: 7.3px;
+
+}
+
+ul.header p{
+    margin-left: 10px;
+        margin-right: 10px;
+      text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+.fcolumn{
+    float:left;
+    width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table td, th {
+  
+  text-align: left;
+  padding: 8px;
+}
+
+.table tr, td, th:nth-child(even) {
+  background-color: white;
+}
