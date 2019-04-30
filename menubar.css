@@ -48,6 +48,7 @@ ul.photobar a:hover {
 
 /* Add a black background color to the top navigation */
 ul.menubar {
+  margin-top : -16px;
     z-index: 0;
   background: #000000;
   overflow: hidden;
@@ -164,5 +165,5 @@ ul.header p{
 }
 
 .table tr, td, th:nth-child(even) {
-  background-color: white;
+  
 }
